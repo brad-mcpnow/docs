@@ -1,0 +1,70 @@
+---
+title: 'How to use Filesystem MCP in ChatGPT/Claude'
+description: 'How to use Filesystem MCP in ChatGPT/Claude in 5 minutes'
+---
+
+Imagine turning ChatGPT or Claude into your personal file system manager that can directly read, write, and organize files on your computer. The Filesystem MCP server creates a secure bridge between your AI assistant and your local directories, enabling seamless file operations, advanced pattern-based searching, and intelligent directory management. Whether you need to analyze code repositories, organize documents, or automate file workflows, this server transforms your AI into a powerful file system companion. This guide will walk you through setting up this essential tool step by step.
+
+## What is MCP and why use it with Filesystem?
+
+The Model Context Protocol (MCP) allows AI assistants like ChatGPT/Claude to interact with external tools and services. By setting up a Filesystem MCP server, you unlock powerful file and directory management capabilities that transform how you work with your local files:
+
+**Safe file operations**: "Read the contents of my configuration file and update the database connection string while preserving the original formatting"
+
+**Intelligent directory management**: "Create a new project structure with folders for docs, src, and tests, then organize my existing files by type"
+
+**Advanced file editing**: "Find all Python files containing the old API endpoint and replace it with the new one across my entire project"
+
+**Smart file search**: "Search for all markdown files created in the last week that contain 'project requirements'"
+
+**Metadata insights**: "Show me the file sizes and modification dates of all documents in my reports folder"
+
+The Filesystem MCP server operates within sandboxed directories for security, ensuring your AI assistant can help manage your files without compromising system integrity. Whether you're organizing project files, batch editing configuration files, or searching through large codebases, this server provides the foundation for automated file management workflows.
+
+Instead of manually navigating directories and editing files one by one, you can describe what you want to accomplish and let your AI assistant handle the complex file operations efficiently and safely.
+
+## Quick Start without code
+
+### What is MCP Now?
+
+[MCP Now](https://mcpnow.io) is a free desktop application that gives you a control panel for the entire MCP ecosystem, including Google Docs integration. With MCP Now, you can:
+**Discover and install with ease**
+- Find new servers through curated lists, live rankings, and personalized recommendations
+- Install instantly with one click—no setup or commands required
+*Manage everything from one place*
+- Switch servers mid-task without restarting apps
+- Control hosts, profiles, and environments from a unified dashboard
+*Inspect, test, and share with confidence*
+- Explore integrated Tools, Resources, and Prompts to inspect issues faster, test changes safely, and troubleshoot with clarity
+- Share full setups or individual servers with a secure link in just a few clicks
+
+### Setting up Google Docs MCP with MCP Now
+
+1. Determine the directories you want to allow the filesystem server to access (replace `<ALLOWED_DIR1>`, `<ALLOWED_DIR2>` with actual directory paths).
+
+2. Ensure you have Node.js installed on your system. You can check by running:
+   ```bash
+   node --version
+   ```
+
+3. Make sure you have npx available (comes with npm). You can verify with:
+   ```bash
+   npx --version
+   ```
+
+4. Prepare the directories you want to access. The server will only operate within these specified directories:
+   ```bash
+   # Example directory paths:
+   # /Users/username/projects
+   # /path/to/workspace
+   ```
+
+5. Note that for security reasons, file operations will be restricted to only the directories specified in the configuration.
+
+6. Return to MCP NOW server settings to add server
+
+## Conclusion
+
+Whether you choose the manual setup process or the streamlined MCP Now approach, connecting Claude to your filesystem opens up powerful new development workflows. You can now leverage Claude's capabilities to read, write, and manage files directly within your sandboxed directories, eliminating the need for manual file operations and copy-paste workflows.
+
+With advanced pattern matching for file editing and search capabilities, plus comprehensive directory management, your file-based tasks become significantly more efficient. Claude can now seamlessly handle everything from code reviews to bulk file operations, making your development process much more streamlined.
