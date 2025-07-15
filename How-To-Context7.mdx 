@@ -1,0 +1,41 @@
+
+Imagine transforming your AI coding assistant into a documentation powerhouse that always has access to the latest, version-specific code examples and API references. Context7 MCP server bridges the gap between outdated training data and real-world development by fetching up-to-date documentation directly from the source. Simply add "use context7" to your prompt and watch as your AI assistant delivers accurate, current code solutions without hallucinated APIs or deprecated examples. This guide will show you how to set up Context7 with your favorite AI coding environment.
+
+## What is MCP and why use it with Context7?
+
+The Model Context Protocol (MCP) allows AI assistants like ChatGPT/Claude to interact with external tools and services. By setting up a Context7 MCP server, you unlock instant access to up-to-date code documentation that transforms your development workflow:
+
+- **Always current documentation**: "Show me the latest React hooks documentation for version 18.2" - no more outdated Stack Overflow answers
+- **Version-specific guidance**: "Get the authentication methods for Django 4.1 specifically" - perfect for legacy project maintenance
+- **Natural language queries**: "How do I implement websockets in Node.js?" - search documentation conversationally instead of digging through manual pages
+- **Cross-platform compatibility**: Access documentation for any library, framework, or language through a single interface
+- **Seamless integration**: "Compare the async/await syntax between Python 3.9 and 3.11" - get contextual documentation without leaving your coding environment
+
+Instead of constantly switching between your IDE, browser tabs, and documentation sites, Context7 brings comprehensive, version-accurate documentation directly to your AI assistant. Whether you're debugging a specific library version, exploring new frameworks, or need quick syntax references, Context7 ensures you're always working with the most relevant and current information available.
+
+This eliminates the frustration of outdated tutorials, reduces context switching, and keeps you in your development flow while ensuring code quality through accurate, up-to-date documentation access.
+
+## Quick Start without code
+
+### What is MCP Now?
+
+[MCP Now](https://mcpnow.io) is a free desktop application that gives you a control panel for the entire MCP ecosystem, including Google Docs integration. With MCP Now, you can:
+**Discover and install with ease**
+- Find new servers through curated lists, live rankings, and personalized recommendations
+- Install instantly with one click—no setup or commands required
+*Manage everything from one place*
+- Switch servers mid-task without restarting apps
+- Control hosts, profiles, and environments from a unified dashboard
+*Inspect, test, and share with confidence*
+- Explore integrated Tools, Resources, and Prompts to inspect issues faster, test changes safely, and troubleshoot with clarity
+- Share full setups or individual servers with a secure link in just a few clicks
+
+### Setting up Context7 MCP with MCP Now
+
+1. No installation or local setup is required - the service is hosted and accessible via HTTP-SSE transport mode.
+
+2. Return to MCP NOW server settings to add this server
+
+## Conclusion
+
+By connecting Context7 MCP to your development environment, you gain access to always-current documentation and code examples right in your AI coding assistant. Whether you choose the one-click installation for supported editors or the manual configuration approach, you'll eliminate the frustration of outdated code suggestions and hallucinated APIs. Simply add "use context7" to your prompts and watch as your AI assistant delivers accurate, version-specific guidance tailored to your exact needs.
