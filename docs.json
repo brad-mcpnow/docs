@@ -18,7 +18,8 @@
             "pages": [
               "index",
               "quickstart",
-              "How-To-Context7",
+              "how-to-context7",
+              "how-to-set-up-context7-mcp-server-with-chatgpt/claude-for-real-time-code-documentation-access",
               "development"
             ]
           },
